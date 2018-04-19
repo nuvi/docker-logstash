@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV LOGSTASH_VERSION 5.6.0
+ENV LOGSTASH_VERSION 6.2.3
 ENV LOGSTASH_EXPORTER_VERSION 0.0.4
 
 RUN apt update && apt install curl wget default-jdk -y
